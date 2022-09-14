@@ -14,3 +14,4 @@ $('div').click(function () {
 // console.log($('.some').closest('.findme'));
 
 console.log($('.more').eq(0).siblings());
+console.log(1);
