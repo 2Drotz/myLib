@@ -11,3 +11,4 @@ $('div').click(function () {
 // console.log($('button').html());
 
 console.log($('div').eq(3).find('.some'));
+console.log($('.some').closest('.findme'));
