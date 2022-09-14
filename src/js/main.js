@@ -10,5 +10,7 @@ $('div').click(function () {
 });
 // console.log($('button').html());
 
-console.log($('div').eq(3).find('.some'));
-console.log($('.some').closest('.findme'));
+// console.log($('div').eq(3).find('.some'));
+// console.log($('.some').closest('.findme'));
+
+console.log($('.more').eq(0).siblings());
