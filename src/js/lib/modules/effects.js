@@ -33,7 +33,7 @@ $.prototype.fadeIn = function (dur, display, fin) {
 
 
       const _fadeIn = (complection) => {
-         this[i].style.opacity = сomplection;
+         this[i].style.opacity = complection;
       };
 
       const ani = this.animateOverTime(dur, _fadeIn, fin);
