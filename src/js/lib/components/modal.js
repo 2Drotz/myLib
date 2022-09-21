@@ -72,7 +72,7 @@ $.prototype.createModal = function ({ text, btns } = {}) {
                         ${text.body}
                   </div>
                   <div class="modal-footer">
-                     
+                         
                   </div>
                </div>
          </div>
