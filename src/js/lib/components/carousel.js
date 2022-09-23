@@ -65,7 +65,8 @@ $.prototype.carousel = function () {
          slidesField.style.transform = `translateX(-${offset}px)`;
          dots.forEach(dot => dot.classList.remove('active'));
          dots[slideIndex].classList.add('active');
-      }
+      });
+   }
 };
 
-   $('carousel').carousel();
+$('.carousel').carousel();
